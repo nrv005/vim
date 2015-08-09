@@ -14,6 +14,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Sorcerer'
 Plugin 'Solarized'
 Plugin 'romainl/Apprentice'
+Plugin 'LustyExplorer'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   
