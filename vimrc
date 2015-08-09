@@ -12,6 +12,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Sorcerer'
+Plugin 'Solarized'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   
@@ -49,6 +50,13 @@ syntax enable
 filetype on
 filetype plugin on
 filetype indent on
+
+"Active la coloration syntaxique pour un terminal avec 256 color
+set t_Co=256
+""Scheme Solarized fond sombre
+let g:solarized_termcolors=256
+set background=dark
+colorscheme sorcerer
 
 "Gestion des caracteres/fonts
 set guifont=DejaVu\ Sans\ Mono\ 10
