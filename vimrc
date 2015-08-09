@@ -13,6 +13,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Sorcerer'
 Plugin 'Solarized'
+Plugin 'romainl/Apprentice'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   
@@ -56,7 +57,7 @@ set t_Co=256
 ""Scheme Solarized fond sombre
 let g:solarized_termcolors=256
 set background=dark
-colorscheme sorcerer
+colorscheme solarized
 
 "Gestion des caracteres/fonts
 set guifont=DejaVu\ Sans\ Mono\ 10
