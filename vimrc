@@ -1,4 +1,4 @@
-"Vim configuratin - Herve Menguy - 01
+"Vim configuratin - Herve Menguy - 02 Suite
 
 "Annule la comptatibilite avec l'ancetre vi
 set nocompatible
