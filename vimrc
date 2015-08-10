@@ -1,4 +1,4 @@
-"Vim configuratin - Herve Menguy - 02 Suite
+"Vim configuratin - Herve Menguy - 03 - Branche Master
 
 "Annule la comptatibilite avec l'ancetre vi
 set nocompatible
@@ -18,6 +18,7 @@ Plugin 'LustyExplorer'
 Plugin 'taglist.vim'
 Plugin 'Python-Syntax'
 Plugin 'sonoma.vim'
+Plugin 'werks.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   
