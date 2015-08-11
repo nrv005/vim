@@ -1,4 +1,4 @@
-"Vim configuratin - Herve Menguy - 03 - Branche Master
+"Vim configuratin - Herve Menguy 
 
 "Annule la comptatibilite avec l'ancetre vi
 set nocompatible
