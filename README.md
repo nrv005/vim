@@ -19,3 +19,12 @@ Creer convenablement les liens et repertoires.
 $>mv vim/ .vim/
 $>ln -s .vim/vimrc .vimrc`
 ```
+3. Installation Vundle:
+
+Cloner le github [Vundle] (https://github.com/VundleVim/Vundle.vim)
+
+`$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+4. Installer les plugins:
+
+lancer `$>vim` et lancer la commande `:PluginInstall`
