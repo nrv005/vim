@@ -12,5 +12,7 @@ Cloner le github
 2. Parametrage de votre compte:
 Creer convenablement les liens et repertoires.
 
-`$>mv vim/ .vim/
+```bash
+$>mv vim/ .vim/
 $>ln -s .vim/vimrc .vimrc`
+```
