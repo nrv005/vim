@@ -21,6 +21,7 @@ Plugin 'ctrlp.vim'
 Plugin 'surround.vim'
 "Plugin 'ctags.vim'
 Plugin 'taglist.vim'
+Plugin 'Python-mode-klen'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   
