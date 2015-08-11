@@ -15,6 +15,7 @@ Plugin 'Sorcerer'
 Plugin 'Solarized'
 Plugin 'romainl/Apprentice'
 Plugin 'LustyExplorer'
+Plugin 'fugitive.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   
