@@ -17,6 +17,7 @@ Plugin 'romainl/Apprentice'
 Plugin 'LustyExplorer'
 Plugin 'fugitive.vim'
 Plugin 'ack.vim'
+Plugin 'ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   
@@ -87,3 +88,6 @@ nmap <leader>j mA:Ack<space>
 "Place un marqueur et cherche le mot sous le curseur
 nmap <leader>ja mA:Ack "<C-r>=expand("<cword>")<cr>"
 nmap <leader>jA mA:Ack "<C-r>=expand("<cWORD>")<cr>"
+
+"Parametrage pour ctrlp
+let g:ctrlp_map = '<leader>c'
