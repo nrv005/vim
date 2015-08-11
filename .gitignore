@@ -1,0 +1,6 @@
+#Ignore le gitignore
+#.gitignore
+#Ignorer les fichiers temporaires de vim
+*.swp
+*netrwhist
+bundle/*
