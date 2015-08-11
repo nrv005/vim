@@ -19,6 +19,8 @@ Plugin 'fugitive.vim'
 Plugin 'ack.vim'
 Plugin 'ctrlp.vim'
 Plugin 'surround.vim'
+"Plugin 'ctags.vim'
+Plugin 'taglist.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   
@@ -92,3 +94,10 @@ nmap <leader>jA mA:Ack "<C-r>=expand("<cWORD>")<cr>"
 
 "Parametrage pour ctrlp
 let g:ctrlp_map = '<leader>c'
+
+"Parametrage pour ctags et python
+let Tlist_Ctags_Cmd = "/usr/bin/ctags"
+let Tlist_WinWidth = 50
+map <F4> :TlistToggle <cr><c-w>w
+
+map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
