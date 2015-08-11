@@ -15,10 +15,6 @@ Plugin 'Sorcerer'
 Plugin 'Solarized'
 Plugin 'romainl/Apprentice'
 Plugin 'LustyExplorer'
-Plugin 'taglist.vim'
-Plugin 'Python-Syntax'
-Plugin 'sonoma.vim'
-Plugin 'werks.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()   
