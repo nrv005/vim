@@ -4,12 +4,14 @@
 
 ##Installation
 1. Clonage:
+
 Cloner le github
 
 `git clone http://github.com/nrv005/vim.git ~/`
 
 
 2. Parametrage de votre compte:
+
 Creer convenablement les liens et repertoires.
 
 ```bash
