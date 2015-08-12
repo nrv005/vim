@@ -76,6 +76,14 @@ set antialias
 :imap ;; <Esc>
 "Changement touche "leader" par l'appui sur ,
 let mapleader = ","
+"Gestion des bracket (parenthese)
+:inoremap ( ()<Esc>i
+:inoremap { {}<Esc>i
+:inoremap [ []<Esc>i
+:inoremap " ""<Esc>i
+:inoremap ' ''<Esc>i
+"<Ctrl-j>quitte l'interieur du bracket et repasse en mode Insertion
+:inoremap <C-j> <Esc>/[)}\]"'>]<CR>:nohl<CR>a
 
 "Affiche une ligne verticale à la 80 colonne
 if (exists('+colorcolumn'))
