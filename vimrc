@@ -89,6 +89,10 @@ let mapleader = ","
 noremap <C-n> :nohl<CR>
 vnoremap <C-n> :nohl<CR>
 inoremap <C-n> :nohl<CR>
+"Sauvegarde par le racourci <C-Z>
+noremap <C-Z> :update<CR>
+vnoremap <C-Z> :update<CR>
+inoremap <C-Z> :update<CR>
 
 "Affiche une ligne verticale à la 80 colonne
 if (exists('+colorcolumn'))
