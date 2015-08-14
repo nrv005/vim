@@ -112,3 +112,16 @@ let Tlist_WinWidth = 50
 map <F4> :TlistToggle <cr><c-w>w
 "Reinitialise le fichier des tag
 map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
+
+"Gestion de python-mode
+"Rope
+"Turn on the rope script
+let g:pymode_rope = 1
+"Affiche la documentation pour l'element sous le curseur
+let g:pymode_rope_show_doc_bind = '<C-c>d'
+"Valide la completion du code par rope		A retester / Ne fonctionne pas
+let g:pymode_rope_completion = 1
+let g:pymode_rope_complete_on_dot = 1
+let g:pymode_rope_completion_bind = '<C-Space'
+"Validation du refactoring
+let g:pymode_rope_rename_bind = '<C-c>rr'
