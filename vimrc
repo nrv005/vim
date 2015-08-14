@@ -61,6 +61,11 @@ filetype on
 filetype plugin on
 filetype indent on
 
+"Suppression des fichiers temporaires et sauvegardes
+set nobackup
+set nowritebackup
+set noswapfile
+
 "Active la coloration syntaxique pour un terminal avec 256 color
 set t_Co=256
 ""Scheme Solarized fond sombre
