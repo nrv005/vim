@@ -93,6 +93,9 @@ inoremap <C-n> :nohl<CR>
 noremap <C-Z> :update<CR>
 vnoremap <C-Z> :update<CR>
 inoremap <C-Z> :update<CR>
+"Faciliter l'indentation de bloc de code
+vnoremap < <gv
+vnoremap > >gv
 
 "Affiche une ligne verticale à la 80 colonne
 if (exists('+colorcolumn'))
