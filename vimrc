@@ -85,6 +85,10 @@ let mapleader = ","
 :inoremap ' ''<Esc>i
 "<Ctrl-j>quitte l'interieur du bracket et repasse en mode Insertion
 :inoremap <C-j> <Esc>/[)}\]"'>]<CR>:nohl<CR>a
+"Supprime les mises en surbrillance par la dernière recherche
+noremap <C-n> :nohl<CR>
+vnoremap <C-n> :nohl<CR>
+inoremap <C-n> :nohl<CR>
 
 "Affiche une ligne verticale à la 80 colonne
 if (exists('+colorcolumn'))
