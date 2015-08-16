@@ -18,12 +18,14 @@ Plugin 'LustyExplorer'
 Plugin 'fugitive.vim'
 Plugin 'ack.vim'
 Plugin 'ctrlp.vim'
-Plugin 'surround.vim'
+"Plugin 'surround.vim'
+Plugin 'tpope/vim-surround.git'
 "Plugin 'ctags.vim'
 Plugin 'taglist.vim'
 Plugin 'Python-mode-klen'
-Plugin 'Powerline'
-
+"Plugin 'Powerline'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'vim-scripts/ag.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()   
 
@@ -78,10 +80,11 @@ set guifont=DejaVu\ Sans\ Mono\ 10
 set antialias
 
 "Changement touche "Echap" (Esc) par l'appui dur ; deux fois
-:map ;; <Esc>
-:imap ;; <Esc>
+:map jk <Esc>
+:imap jk <Esc>
 "Changement touche "leader" par l'appui sur ,
-let mapleader = ","
+let mapleader="\<space>" 
+nnoremap <Space> <Nop>
 "Gestion des bracket (parenthese)
 :inoremap ( ()<Esc>i
 :inoremap { {}<Esc>i
@@ -91,9 +94,9 @@ let mapleader = ","
 "<Ctrl-j>quitte l'interieur du bracket et repasse en mode Insertion
 :inoremap <C-j> <Esc>/[)}\]"'>]<CR>:nohl<CR>a
 "Supprime les mises en surbrillance par la dernière recherche
-noremap <C-n> :nohl<CR>
-vnoremap <C-n> :nohl<CR>
-inoremap <C-n> :nohl<CR>
+noremap <C-h> :nohl<CR>
+vnoremap <C-h> :nohl<CR>
+inoremap <C-h> :nohl<CR>
 "Sauvegarde par le racourci <C-Z>
 noremap <C-Z> :update<CR>
 vnoremap <C-Z> :update<CR>
@@ -130,6 +133,9 @@ map <F4> :TlistToggle <cr><c-w>w
 map <F8> :!/usr/bin/ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<cr>
 
 "Gestion de python-mode
+let g:pymode =1
+let g:pymode_trim_whithespace = 1
+let g:pymode_options = 1
 "Rope
 "Turn on the rope script
 let g:pymode_rope = 1
