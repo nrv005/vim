@@ -26,6 +26,7 @@ Plugin 'Python-mode-klen'
 "Plugin 'Powerline'
 Plugin 'davidhalter/jedi-vim'
 Plugin 'vim-scripts/ag.vim'
+Plugin 'lightline.vim'
 " All of your Plugins must be added before the following line
 call vundle#end()   
 
@@ -80,8 +81,8 @@ set guifont=DejaVu\ Sans\ Mono\ 10
 set antialias
 
 "Changement touche "Echap" (Esc) par l'appui dur ; deux fois
-:map jk <Esc>
-:imap jk <Esc>
+:map ff <Esc>
+:imap ff <Esc>
 "Changement touche "leader" par l'appui sur ,
 let mapleader="\<space>" 
 nnoremap <Space> <Nop>
